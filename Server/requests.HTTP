@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos 
+
+###
+
+POST http://localhost:3001/todo/add
+Content-Type: application/json
+
+{
+    "title" : "Go to college"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/61d428b1f08f938c8da00714
+
+###
+
+GET http://localhost:3001/todo/update/61d4299ef08f938c8da00716
+
